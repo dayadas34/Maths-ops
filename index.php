@@ -17,11 +17,11 @@
 <body class="bgstyle">
     
     <div class="navbar">
-        <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a> 
-        <a href="addition.html"><i class="fa fa-fw fa-plus"></i> Addition </a> 
-        <a href="subtraction.html"><i class="fa fa-fw fa-minus"></i> Subtraction </a> 
-        <a href="multiplication.html"><i class="fa fa-fw fa-times"></i> Multiplication </a>
-        <a href="division.html"><i class="fa fa-fw fa-magic"></i> Division </a>
+        <a class="active" href="index.php"><i class="fa fa-fw fa-home"></i> Home</a> 
+        <a href="addition.php"><i class="fa fa-fw fa-plus"></i> Addition </a> 
+        <a href="subtraction.php"><i class="fa fa-fw fa-minus"></i> Subtraction </a> 
+        <a href="multiplication.php"><i class="fa fa-fw fa-times"></i> Multiplication </a>
+        <a href="division.php"><i class="fa fa-fw fa-magic"></i> Division </a>
     </div>
 
     <div class="container">

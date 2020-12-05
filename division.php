@@ -16,15 +16,15 @@
 <body>
     
     <div class="navbar">
-        <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a> 
-        <a href="addition.html"><i class="fa fa-fw fa-plus"></i> Addition </a> 
-        <a href="subtraction.html"><i class="fa fa-fw fa-minus"></i> Subtraction </a> 
-        <a class="active"  href="multiplication.html"><i class="fa fa-fw fa-times"></i> Multiplication </a>
-        <a href="division.html"><i class="fa fa-fw fa-magic"></i> Division </a>
+        <a href="index.php"><i class="fa fa-fw fa-home"></i> Home</a> 
+        <a href="addition.php"><i class="fa fa-fw fa-plus"></i> Addition </a> 
+        <a href="subtraction.php"><i class="fa fa-fw fa-minus"></i> Subtraction </a> 
+        <a href="multiplication.php"><i class="fa fa-fw fa-times"></i> Multiplication </a>
+        <a class="active"  href="division.php"><i class="fa fa-fw fa-magic"></i> Division </a>
       </div>
     
     &nbsp;
-    <center><h5>Multiplication</h5></center>
+    <center><h5>Division</h5></center>
    
     <div class="container">
 
@@ -50,7 +50,7 @@
                     </tr>
 
                     <tr>
-                        <td>Product of the two numbers :</td>
+                        <td>Quotient of the two numbers :</td>
                         <td><p id="res"></p></td>
                     </tr>
 
@@ -70,8 +70,8 @@
             var num2=parseInt(document.getElementById("num2").value)
             console.log(num1)
             console.log(num2)
-            var pdt= num1 * num2
-            document.getElementById("res").innerHTML=pdt
+            var quo= num1/num2
+            document.getElementById("res").innerHTML=quo
         }
 
     </script>
